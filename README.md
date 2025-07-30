@@ -18,7 +18,6 @@ The present document will be continuously updated and used as the main entry poi
 
     -   Learn how to load an external dataset and summarize it
     
-- Lecture [notes](./Training_Session_1/Notes_session1.html)    
 
 -   External resource: [Basic Basics lesson unit from R-Ladies Sydney](https://rladiessydney.org/courses/ryouwithme/basicbasics)
 
@@ -26,7 +25,6 @@ The present document will be continuously updated and used as the main entry poi
 
 -   Objective: learn principles underlying the grammar of data manipulation `dplyr`
 
-- Lecture [notes](./Training_Session_1/Notes_session2.html)    
 
 -   External resources
 
