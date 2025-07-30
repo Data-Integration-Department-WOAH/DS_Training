@@ -7,7 +7,6 @@ format:
     embed-resources: true
     toc: true
     number-sections: true
-editor: visual
 ---
 
 This syllabus for the training program. We will work in agile mode and adjust continuously the pace and content of the training sessions based on your feedback and needs.

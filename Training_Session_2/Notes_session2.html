@@ -2180,39 +2180,19 @@ vertical-align: -.125em;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#where-to-ask-questions" id="toc-where-to-ask-questions" class="nav-link active" data-scroll-target="#where-to-ask-questions"><span class="header-section-number">1</span> Where to ask questions?</a></li>
-  <li><a href="#poking-around-rstudio" id="toc-poking-around-rstudio" class="nav-link" data-scroll-target="#poking-around-rstudio"><span class="header-section-number">2</span> Poking around Rstudio</a>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation"><span class="header-section-number">1</span> Motivation</a></li>
+  <li><a href="#playing-with-dplyr-the-mtcars-dataset" id="toc-playing-with-dplyr-the-mtcars-dataset" class="nav-link" data-scroll-target="#playing-with-dplyr-the-mtcars-dataset"><span class="header-section-number">2</span> Playing with <code>dplyr</code> the <code>mtcars</code> dataset</a>
   <ul class="collapse">
-  <li><a href="#the-various-panes" id="toc-the-various-panes" class="nav-link" data-scroll-target="#the-various-panes"><span class="header-section-number">2.1</span> The various panes</a></li>
-  <li><a href="#clicking-vs-scripting" id="toc-clicking-vs-scripting" class="nav-link" data-scroll-target="#clicking-vs-scripting"><span class="header-section-number">2.2</span> Clicking vs Scripting</a></li>
-  <li><a href="#rstudio-as-a-pocket-calculator" id="toc-rstudio-as-a-pocket-calculator" class="nav-link" data-scroll-target="#rstudio-as-a-pocket-calculator"><span class="header-section-number">2.3</span> Rstudio as a pocket calculator</a></li>
+  <li><a href="#filtering" id="toc-filtering" class="nav-link" data-scroll-target="#filtering"><span class="header-section-number">2.1</span> Filtering</a></li>
+  <li><a href="#selecting-columns" id="toc-selecting-columns" class="nav-link" data-scroll-target="#selecting-columns"><span class="header-section-number">2.2</span> Selecting columns</a></li>
   </ul></li>
-  <li><a href="#loading-data" id="toc-loading-data" class="nav-link" data-scroll-target="#loading-data"><span class="header-section-number">3</span> Loading data</a>
+  <li><a href="#final-remarks" id="toc-final-remarks" class="nav-link" data-scroll-target="#final-remarks"><span class="header-section-number">3</span> Final remarks</a>
   <ul class="collapse">
-  <li><a href="#a-tiny-dataset-in-txt-format" id="toc-a-tiny-dataset-in-txt-format" class="nav-link" data-scroll-target="#a-tiny-dataset-in-txt-format"><span class="header-section-number">3.1</span> A tiny dataset in <code>txt</code> format</a></li>
-  <li><a href="#where-are-my-data" id="toc-where-are-my-data" class="nav-link" data-scroll-target="#where-are-my-data"><span class="header-section-number">3.2</span> Where are my data?</a></li>
-  <li><a href="#miscellaneous-remarks" id="toc-miscellaneous-remarks" class="nav-link" data-scroll-target="#miscellaneous-remarks"><span class="header-section-number">3.3</span> Miscellaneous remarks</a>
-  <ul class="collapse">
-  <li><a href="#piping" id="toc-piping" class="nav-link" data-scroll-target="#piping"><span class="header-section-number">3.3.1</span> Piping</a></li>
-  <li><a href="#code-formatting" id="toc-code-formatting" class="nav-link" data-scroll-target="#code-formatting"><span class="header-section-number">3.3.2</span> Code formatting</a></li>
+  <li><a href="#take-home-messages" id="toc-take-home-messages" class="nav-link" data-scroll-target="#take-home-messages"><span class="header-section-number">3.1</span> Take-home messages</a></li>
   </ul></li>
-  <li><a href="#a-larger-dataset-in-excel-format" id="toc-a-larger-dataset-in-excel-format" class="nav-link" data-scroll-target="#a-larger-dataset-in-excel-format"><span class="header-section-number">3.4</span> A larger dataset, in excel format</a></li>
-  <li><a href="#exploring-the-structure-of-the-prrs-dataset" id="toc-exploring-the-structure-of-the-prrs-dataset" class="nav-link" data-scroll-target="#exploring-the-structure-of-the-prrs-dataset"><span class="header-section-number">3.5</span> Exploring the structure of the <code>PRRS</code> dataset</a></li>
-  </ul></li>
-  <li><a href="#common-data-structures" id="toc-common-data-structures" class="nav-link" data-scroll-target="#common-data-structures"><span class="header-section-number">4</span> Common data structures</a>
-  <ul class="collapse">
-  <li><a href="#rectangular-tables" id="toc-rectangular-tables" class="nav-link" data-scroll-target="#rectangular-tables"><span class="header-section-number">4.1</span> Rectangular tables</a></li>
-  <li><a href="#handling-loosely-structured-data" id="toc-handling-loosely-structured-data" class="nav-link" data-scroll-target="#handling-loosely-structured-data"><span class="header-section-number">4.2</span> Handling loosely structured data</a></li>
-  </ul></li>
-  <li><a href="#checking-formatting-issues-in-a-dataset" id="toc-checking-formatting-issues-in-a-dataset" class="nav-link" data-scroll-target="#checking-formatting-issues-in-a-dataset"><span class="header-section-number">5</span> Checking formatting issues in a dataset</a></li>
-  <li><a href="#final-remarks" id="toc-final-remarks" class="nav-link" data-scroll-target="#final-remarks"><span class="header-section-number">6</span> Final remarks</a>
-  <ul class="collapse">
-  <li><a href="#take-home-messages" id="toc-take-home-messages" class="nav-link" data-scroll-target="#take-home-messages"><span class="header-section-number">6.1</span> Take-home messages</a></li>
-  </ul></li>
-  <li><a href="#in-class-exercise" id="toc-in-class-exercise" class="nav-link" data-scroll-target="#in-class-exercise"><span class="header-section-number">7</span> In-class exercise</a></li>
-  <li><a href="#self-study-exercise" id="toc-self-study-exercise" class="nav-link" data-scroll-target="#self-study-exercise"><span class="header-section-number">8</span> Self-study exercise</a></li>
-  <li><a href="#external-resource" id="toc-external-resource" class="nav-link" data-scroll-target="#external-resource"><span class="header-section-number">9</span> External resource</a></li>
-  <li><a href="#presence-and-evaluation-sheet" id="toc-presence-and-evaluation-sheet" class="nav-link" data-scroll-target="#presence-and-evaluation-sheet"><span class="header-section-number">10</span> Presence and evaluation sheet</a></li>
+  <li><a href="#in-class-exercise" id="toc-in-class-exercise" class="nav-link" data-scroll-target="#in-class-exercise"><span class="header-section-number">4</span> In-class exercise</a></li>
+  <li><a href="#self-study-exercise" id="toc-self-study-exercise" class="nav-link" data-scroll-target="#self-study-exercise"><span class="header-section-number">5</span> Self-study exercise</a></li>
+  <li><a href="#external-resource" id="toc-external-resource" class="nav-link" data-scroll-target="#external-resource"><span class="header-section-number">6</span> External resource</a></li>
   </ul>
 </nav>
 </div>
@@ -2250,345 +2230,73 @@ vertical-align: -.125em;
 </header>
 
 
-<section id="where-to-ask-questions" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Where to ask questions?</h1>
-<ul>
-<li><p><code>Teams -&gt; Data Science -&gt;  Data Science Training 2025</code></p></li>
-<li><p>PM to <code>@g.guillot</code> via teams or email</p></li>
-</ul>
-</section>
-<section id="poking-around-rstudio" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Poking around Rstudio</h1>
-<section id="the-various-panes" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="the-various-panes"><span class="header-section-number">2.1</span> The various panes</h2>
-<pre><code>-   `Source`
-
--   `Console`
-
--   `Environment` etc...
-
--   `Files`, `plots` etc...</code></pre>
-</section>
-<section id="clicking-vs-scripting" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="clicking-vs-scripting"><span class="header-section-number">2.2</span> Clicking vs Scripting</h2>
-<ul>
-<li><p>Clicking is user-friendly but <strong>error prone, not scalable, not traceable, not reproducible</strong></p></li>
-<li><p>Scripting is reliable (less error prone), scalable, traceable, reproducible</p></li>
-</ul>
-</section>
-<section id="rstudio-as-a-pocket-calculator" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="rstudio-as-a-pocket-calculator"><span class="header-section-number">2.3</span> Rstudio as a pocket calculator</h2>
+<section id="motivation" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Motivation</h1>
+<p>After a dataset is loaded, we commonly have to go through steps such as checking, cleaning, pruning, reshaping, reformatting etc… The R package <code>dplyr</code> contains functions and a common set of rules (syntax/grammar) to do that. This package needs to be installed as:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span><span class="sc">+</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;dplyr&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    x<span class="ot">=</span><span class="dv">3</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 3</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>    y<span class="ot">=</span><span class="dv">4</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>    x<span class="sc">+</span>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 7</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>    x<span class="ot">=</span><span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>    y<span class="ot">=</span><span class="dv">10</span><span class="sc">:</span><span class="dv">1</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1] 10  9  8  7  6  5  4  3  2  1</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>    x<span class="sc">+</span>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1] 11 11 11 11 11 11 11 11 11 11</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>    <span class="co"># checking my R objects</span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ls</span>()  <span class="co"># even more information found in the &#39;Environment&#39; pane</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] &quot;x&quot; &quot;y&quot;</code></pre>
-</div>
-</div>
-<ul>
-<li><p>Setting the working directory</p>
-<ul>
-<li><p>Method 1 (GUI): Session -&gt; Set Working Directory</p></li>
-<li><p>Method 2 (command line)</p></li>
-</ul></li>
-</ul>
+<p>and loaded</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># line below to be updated</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">&quot;C:/Users/g.guillot/OneDrive - World Organisation For Animal Health/Data Science - Documents/Data Science Training 2025/Training_Session_1&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>NB: any character found after a # is treated as a comment (disregarded by R). It is strongly recommended to add brief informative comments to your code to help your next-door colleague or you future self .</p>
+<p>In this session, we are going to work with toy dataset included in R, the <code>mtcars</code> dataset</p>
 </section>
-</section>
-<section id="loading-data" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Loading data</h1>
-<ul>
-<li>Method 1 GUI: File -&gt; Import Dataset -&gt; From Excel (note the code preview)</li>
-<li>Method 2: use R commands (prefered, cf below)</li>
-</ul>
-<section id="a-tiny-dataset-in-txt-format" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="a-tiny-dataset-in-txt-format"><span class="header-section-number">3.1</span> A tiny dataset in <code>txt</code> format</h2>
-<ul>
-<li><p>Try to load the <code>books.csv</code> data using the GUI</p></li>
-<li><p>Do the same using R commands as below:</p></li>
-</ul>
+<section id="playing-with-dplyr-the-mtcars-dataset" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Playing with <code>dplyr</code> the <code>mtcars</code> dataset</h1>
+<p>In this session, we are going to work with a toy dataset included in R, the <code>mtcars</code> dataset. For your convenience, this dataset is stored on the data folder of the current session on Sharepoint.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># installing  a special library to read external data</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&#39;readr&#39;) # has to be done only once</span></span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># loading the package</span></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr) <span class="co"># has to be done at start of each R session</span></span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>book_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;data/books.csv&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># loading the mtcars dataset</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr) <span class="co"># needed to call  read_csv()</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magrittr) <span class="co"># needed for the pipe operator %&gt;% </span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>mtcars_data <span class="ot">=</span> <span class="fu">read_csv</span>(<span class="st">&quot;data/mtcars.csv&quot;</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co"># checking</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>mtcars_data <span class="sc">%&gt;%</span> <span class="fu">dim</span>()</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>mtcars_data <span class="sc">%&gt;%</span> <span class="fu">colnames</span>()</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># checking a specific variable</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>mtcars_data<span class="sc">$</span>gear <span class="co"># return all values in the console</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>mtcars_data<span class="sc">$</span>gear <span class="sc">%&gt;%</span>  <span class="fu">unique</span>() <span class="co"># return the set of unique values</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>mtcars_data<span class="sc">$</span>gear <span class="sc">%&gt;%</span>  <span class="fu">unique</span>() <span class="sc">%&gt;%</span> <span class="fu">sort</span>() <span class="co"># return the set of unique values and sort them </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="where-are-my-data" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="where-are-my-data"><span class="header-section-number">3.2</span> Where are my data?</h2>
-<p>You can inspect the content of the dataset you just created by</p>
-<ul>
-<li><p>Clicking on the object name in the `Environment` pane</p></li>
-<li><p>R commands:</p></li>
-</ul>
+<section id="filtering" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="filtering"><span class="header-section-number">2.1</span> Filtering</h2>
+<p>We can retain rows of a dataset matching a condition with <code>filter()</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magrittr) <span class="co"># load a library for modern R syntax writing </span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>book_data <span class="co"># print the dataset in the console</span></span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>book_data <span class="sc">|&gt;</span> <span class="fu">str</span>() <span class="co"># print info on  structure (more efficient in case of large dataset)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#  we now cars hare have 3, 4 or 5 gears</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>mtcars_4gear <span class="ot">=</span> mtcars_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(gear <span class="sc">==</span> <span class="dv">4</span>) </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>mtcars_4gear </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="miscellaneous-remarks" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="miscellaneous-remarks"><span class="header-section-number">3.3</span> Miscellaneous remarks</h2>
-<section id="piping" class="level3" data-number="3.3.1">
-<h3 data-number="3.3.1" class="anchored" data-anchor-id="piping"><span class="header-section-number">3.3.1</span> Piping</h3>
-<ul>
-<li><p>In older R code <code>book_data |&gt; str()</code> used to be written <code>str(book_data)</code>. More generally <code>data |&gt; function()</code> used to be written as <code>function(data)</code>. The latter is still widely found.</p></li>
-<li><p>The three characters <code>|&gt;</code> (pronounced ‘pipe’) can be obtained with the keyboard shortcut <code>Ctrl + Shift + M</code></p></li>
-<li><p>In this training, we will strive to use the modern syntax <code>data %&gt;% function()</code> or more generally <code>data %&gt;% function(opt_arg = my_option)</code></p></li>
-</ul>
-</section>
-<section id="code-formatting" class="level3" data-number="3.3.2">
-<h3 data-number="3.3.2" class="anchored" data-anchor-id="code-formatting"><span class="header-section-number">3.3.2</span> Code formatting</h3>
-<ul>
-<li><p>Naming conventions:</p>
-<ul>
-<li><p>Object names should start with a letter (numbers and most special characters are forbidden)</p></li>
-<li><p>Compound names are welcome</p>
-<ul>
-<li>snake style (preferred): <code>my_data</code></li>
-<li>camel style: <code>MyData</code></li>
-</ul></li>
-<li><p>Executing lines, blocks,full scripts</p></li>
-</ul></li>
-<li><p>No rule on code formatting (space, indentation, line end)</p></li>
-</ul>
-</section>
-</section>
-<section id="a-larger-dataset-in-excel-format" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="a-larger-dataset-in-excel-format"><span class="header-section-number">3.4</span> A larger dataset, in excel format</h2>
-<p>Try now to load the <code>PRRS.xlsx</code> dataset.</p>
+<p>##Re-arranging rows</p>
+<p>We can arrange rows of a data set with <code>arrange</code>, for example by car make or mpg of gears:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># loading several useful packages</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl) <span class="co"># to load excel data into R</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>PRRS <span class="ot">=</span> <span class="fu">read_excel</span>(<span class="st">&quot;./data/PRRS.xlsx&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li><p>Proprietary formats like .xlsx not preferred in Open Source world. Excel <em>de facto</em> standard in corporate world and well supported by Rstudio. Many other formats supported, e.g. .csv, .tsv, .rds, .rda, .json etc.</p></li>
-<li><p>Where are my data ?!?</p>
-<ul>
-<li><p>In Excel: a lot of screen space for data values, not much for scripting</p></li>
-<li><p>In Rstudio:</p>
-<ul>
-<li>Recognition that editing a data file is error prone, not scalable, not traceable, not reproducible</li>
-<li>Focus on scripting, not on data values</li>
-<li>Type `ls()` in the console to get a list of your data</li>
-</ul></li>
-</ul></li>
-<li><p>The <code>environment</code> pane</p></li>
-</ul>
-</section>
-<section id="exploring-the-structure-of-the-prrs-dataset" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="exploring-the-structure-of-the-prrs-dataset"><span class="header-section-number">3.5</span> Exploring the structure of the <code>PRRS</code> dataset</h2>
-<ul>
-<li>Method 1 GUI: inspect information in the <code>Environment</code> pane (limited)</li>
-<li>Method 2: asking questions about the dataset via a script</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># How many rows and columns?</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>PRRS <span class="sc">%&gt;%</span> <span class="fu">dim</span>()</span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="co"># number of columns</span></span>
-<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>PRRS <span class="sc">%&gt;%</span> <span class="fu">ncol</span>()</span>
-<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="co"># number of rows (note the naming consistency!)</span></span>
-<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>PRRS <span class="sc">%&gt;%</span> <span class="fu">nrow</span>()</span>
-<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="co"># variable names</span></span>
-<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>PRRS <span class="sc">%&gt;%</span> <span class="fu">colnames</span>()</span>
-<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a><span class="co"># name and class (character, numeric) of variables?</span></span>
-<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>PRRS <span class="sc">%&gt;%</span> <span class="fu">str</span>()</span>
-<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="co"># quick statistical summary of all variables</span></span>
-<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>PRRS <span class="sc">%&gt;%</span> <span class="fu">summary</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># same dataset with row sorted by mpg</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dat1 <span class="ot">=</span> mtcars_data <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(mpg)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-</section>
-<section id="common-data-structures" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Common data structures</h1>
-<section id="rectangular-tables" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="rectangular-tables"><span class="header-section-number">4.1</span> Rectangular tables</h2>
-<ul>
-<li>In Excel, data are organised in sheets and there is also almost no constraint on what a sheet can contain and how material is organised in a sheet</li>
-<li>In R, there are constraints</li>
-<li>A rectangular table in R is most commonly stored as a <code>data.frame</code> (old style) or a <code>tibble</code> (preferred)
-<ul>
-<li>can mix numeric and character variables (columns)</li>
-</ul></li>
-</ul>
-</section>
-<section id="handling-loosely-structured-data" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="handling-loosely-structured-data"><span class="header-section-number">4.2</span> Handling loosely structured data</h2>
-<p>When a dataset can not fit in a rectangular table, a good option is often to store it as a list (or list of lists).</p>
-<p>Let’s consider the simple dataset below. This could be stored as rectangular table with 4 rows and 3 columns.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># NB: this mock dataset was generated by chatGPT (#genderstereotypes)</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>people <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">&quot;Fred&quot;</span>, <span class="st">&quot;John&quot;</span>, <span class="st">&quot;Paul&quot;</span>, <span class="st">&quot;Henry&quot;</span>),</span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">wife =</span> <span class="fu">c</span>(<span class="st">&quot;Mary&quot;</span>, <span class="st">&quot;Linda&quot;</span>, <span class="st">&quot;Susan&quot;</span>, <span class="st">&quot;Kate&quot;</span>),</span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">no.children =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">1</span>)</span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>people</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Now consider a slightly more complex example with new variables <code>child.age</code>, <code>phone</code> and <code>address</code>. The number of entries of <code>child.age</code> varies depending on the number of children.</p>
-<p>With a <code>list</code>, this is not an issue:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>people <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">&quot;Fred&quot;</span>, <span class="st">&quot;John&quot;</span>, <span class="st">&quot;Paul&quot;</span>, <span class="st">&quot;Henry&quot;</span>),</span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">wife =</span> <span class="fu">c</span>(<span class="st">&quot;Mary&quot;</span>, <span class="st">&quot;Linda&quot;</span>, <span class="st">&quot;Susan&quot;</span>, <span class="st">&quot;Kate&quot;</span>),</span>
-<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">no.children =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">0</span>),</span>
-<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">child.age =</span> <span class="fu">list</span>(</span>
-<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">7</span>, <span class="dv">9</span>),      <span class="co"># Fred&#39;s kids</span></span>
-<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">6</span>),         <span class="co"># John&#39;s kids</span></span>
-<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>),   <span class="co"># Paul&#39;s kids</span></span>
-<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="cn">NA</span>)             <span class="co"># Not Available</span></span>
-<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>  ),</span>
-<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">phone =</span> <span class="fu">list</span>(</span>
-<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">mobile =</span> <span class="fu">c</span>(<span class="st">&quot;555-1111&quot;</span>, <span class="st">&quot;555-2222&quot;</span>, <span class="st">&quot;555-3333&quot;</span>, <span class="st">&quot;555-4444&quot;</span>),</span>
-<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">landline =</span> <span class="fu">c</span>(<span class="st">&quot;555-1010&quot;</span>, <span class="st">&quot;555-2020&quot;</span>, <span class="st">&quot;555-3030&quot;</span>, <span class="st">&quot;555-4040&quot;</span>)</span>
-<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>  ),</span>
-<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">address =</span> <span class="fu">list</span>(</span>
-<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">street =</span> <span class="fu">c</span>(<span class="st">&quot;123 Main St&quot;</span>, <span class="st">&quot;456 Elm St&quot;</span>, <span class="st">&quot;789 Oak St&quot;</span>, <span class="st">&quot;101 Maple St&quot;</span>),</span>
-<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">city =</span> <span class="fu">c</span>(<span class="st">&quot;Springfield&quot;</span>, <span class="st">&quot;Rivertown&quot;</span>, <span class="st">&quot;Lakeside&quot;</span>, <span class="st">&quot;Hillside&quot;</span>),</span>
-<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">state =</span> <span class="fu">c</span>(<span class="st">&quot;IL&quot;</span>, <span class="st">&quot;TX&quot;</span>, <span class="st">&quot;CA&quot;</span>, <span class="st">&quot;NY&quot;</span>),</span>
-<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">zip =</span> <span class="fu">c</span>(<span class="st">&quot;62704&quot;</span>, <span class="st">&quot;73301&quot;</span>, <span class="st">&quot;90210&quot;</span>, <span class="st">&quot;10001&quot;</span>)</span>
-<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>people<span class="sc">$</span>child.age</span>
-<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>people<span class="sc">$</span>phone</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Remark: Note the use of the object <code>NA</code> (not available).</p>
-<ul>
-<li>used whenever a single value is missing</li>
-<li>understand algebra: try typing <code>NA+3</code>, <code>2/NA</code>, <code>5*NA</code></li>
-</ul>
+<section id="selecting-columns" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="selecting-columns"><span class="header-section-number">2.2</span> Selecting columns</h2>
+<p>We can select a subset of columns with <code>select</code></p>
 </section>
 </section>
-<section id="checking-formatting-issues-in-a-dataset" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Checking formatting issues in a dataset</h1>
-<ul>
-<li><p>In this example we are using an add-on to R (something known as an R package) called <code>dataReporter</code> to check the dataset for common issues.</p></li>
-<li><p>The R package <code>dataReporter</code> is not seen as a panacea for fixing all formatting and coding issues in an dataset. It is shown merely as an example.</p></li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dataReporter) </span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co"># checking the dataset </span></span>
-<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>PRRS <span class="sc">%&gt;%</span> <span class="fu">makeDataReport</span>() <span class="co"># create an external pdf report</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>NB: writing explicitly <code>library(dataReporter)</code> loads all the package (functions and dataset). It is an ‘overkill’ when only one function is required. For parsimony (and to spare one line of code), we can skip <code>library(dataReporter)</code> and write <code>PRRS %&gt;% dataReporter::makeDataReport()</code></p>
-<p>Generically:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(my_package)</span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>dataset <span class="sc">%&gt;%</span> <span class="fu">my_function</span>()</span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># can be replaced by</span></span>
-<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  dataset <span class="sc">%&gt;%</span> my_package<span class="sc">::</span><span class="fu">my_function</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="final-remarks" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Final remarks</h1>
-<section id="take-home-messages" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="take-home-messages"><span class="header-section-number">6.1</span> Take-home messages</h2>
-<ul>
-<li>R users write scripts</li>
-<li>Common packages to load external data include <code>readr</code> and <code>readxl</code>
-<ul>
-<li>have to be installed (one off) with <code>install.packages(&quot;&quot;)</code> before use,</li>
-<li>loaded with <code>library(&quot;&quot;)</code>, within each R session</li>
-</ul></li>
-<li>Common package functions to load external data include <code>readr::read_csv</code> and <code>readxl::read_excel</code></li>
-<li>Info on R objects in current session:
-<ul>
-<li>in <code>Environment</code> pane</li>
-<li><code>ls()</code>, <code>data %&gt;% ncol</code>, <code>data %&gt;% dim()</code>, <code>data %&gt;% str()</code></li>
-</ul></li>
-<li>AI
-<ul>
-<li>Before you know it, LLMs such as <strong>co-pilot, chatGPT</strong> and <strong>Gemini</strong> will become your best friend to help you scripting in R.</li>
-<li>Feel free to ask LLMs general questions on any R related topic, a good place to start is <a href="https://chatgpt.com/g/g-iedyANQtM-r-and-r-studio-tutor">chatGPT R and Rstudio tutor</a></li>
-<li>In the first weeks of this training , please <strong>refrain asking an LLM to write R scripts for you</strong>, or you will never learn anything.</li>
-</ul></li>
-</ul>
+<section id="final-remarks" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Final remarks</h1>
+<section id="take-home-messages" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="take-home-messages"><span class="header-section-number">3.1</span> Take-home messages</h2>
 </section>
 </section>
-<section id="in-class-exercise" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> In-class exercise</h1>
-<ul>
-<li><p>The exercise consists in writing a short R script that executes the various steps below:</p>
-<ul>
-<li>load into Rstudio the file <code>cars_dataset.csv</code></li>
-<li>get the number of rows and columns via the <code>nrow()</code> and <code>ncol()</code> functions</li>
-<li>rename the variable <code>wt</code> into <code>weight</code> using the function <code>rename()</code> of the R package <code>dplyr</code> (hint: make sure the package is installed and loaded , type <code>? rename</code> for on-line help and see the example given)</li>
-</ul></li>
-<li><p>Check each line of your script by executing it before attempting to write the next line</p></li>
-<li><p>Add comments to your instructions</p></li>
-<li><p>Make sure to save your script in a file (with a `.R` extension) for future reference.</p></li>
-<li><p>Close the <code>.R</code> file containing your script.</p></li>
-<li><p>Re-open your script file and update it so that it performs the same task (rename variable <code>carat</code> into <code>weight</code>)</p></li>
-</ul>
+<section id="in-class-exercise" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> In-class exercise</h1>
 </section>
-<section id="self-study-exercise" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> Self-study exercise</h1>
-<ul>
-<li><p>Chose an excel file related to one of your current projects</p></li>
-<li><p>Review the on-line documentation of the <code>read_excel</code> function (<code>readxl</code> package)</p></li>
-<li><p>Use <code>read_excel</code> to load one of the sheets of the excel file into your R session</p></li>
-<li><p>Run <code>dataReporter::makeDataReport()</code> on this dataset</p></li>
-</ul>
-<p>Hints:</p>
-<ul>
-<li>Make sure you script is saved in a carefully commented <code>.R</code> file</li>
-<li>Make sure you understand all warning and error messages.</li>
-</ul>
+<section id="self-study-exercise" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Self-study exercise</h1>
 </section>
-<section id="external-resource" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> External resource</h1>
-<ul>
-<li>External resource: <a href="https://rladiessydney.org/courses/ryouwithme/basicbasics">Basic Basics lesson unit from R-Ladies Sydney</a></li>
-</ul>
-</section>
-<section id="presence-and-evaluation-sheet" class="level1" data-number="10">
-<h1 data-number="10"><span class="header-section-number">10</span> Presence and evaluation sheet</h1>
-<p>Please take 1 min to fill the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Y_X68W2wNUyHOTTMwoDcr65sY2lIPT9CrlVkSYnYNWZUM1E0MDNCN0Q5TktJRUFFNDdPUThDQVYxUC4u">presence and evaluation sheet</a>.</p>
+<section id="external-resource" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> External resource</h1>
+<p><a href="https://cloud.r-project.org/web/packages/dplyr/vignettes/dplyr.html">Introduction to dplyr</a> <a href="https://dplyr.tidyverse.org/">dplyr overview</a> <a href="https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf">dplyr cheat sheet</a></p>
 </section>
 
 </main>

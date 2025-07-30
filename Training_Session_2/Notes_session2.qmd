@@ -1,0 +1,99 @@
+---
+title: "Lecture notes"
+subtitle: "Session 1"
+author: "Gilles Guillot, Data Integration Department, World Organisation for Animal Health"
+date: last-modified
+execute: 
+  eval: false
+  message: false
+  warning: false
+format:
+  html:
+    self-contained: true
+    toc: true
+    number-sections: true
+---
+
+
+# Motivation
+
+After a dataset is loaded, we commonly have to go through steps such as checking, cleaning, pruning, reshaping, reformatting etc... 
+The R package `dplyr` contains functions and a common set of rules (syntax/grammar) to do that. 
+This package needs to be installed as:
+
+```{r,eval=FALSE}
+install.packages("dplyr")
+```
+
+and loaded 
+
+```{r}
+library(dplyr)
+```
+
+
+In this session, we are going to work with  toy dataset included in R, the `mtcars` dataset 
+
+# Playing with `dplyr`  the `mtcars` dataset 
+
+In this session, we are going to work with a toy dataset included in R, the `mtcars` dataset.
+For your convenience, this dataset is stored on the data folder of the current session on Sharepoint.
+
+```{r}
+# loading the mtcars dataset
+library(readr) # needed to call  read_csv()
+library(magrittr) # needed for the pipe operator %>% 
+mtcars_data = read_csv("data/mtcars.csv")
+
+# checking
+mtcars_data %>% dim()
+mtcars_data %>% colnames()
+
+# checking a specific variable
+mtcars_data$gear # return all values in the console
+mtcars_data$gear %>%  unique() # return the set of unique values
+mtcars_data$gear %>%  unique() %>% sort() # return the set of unique values and sort them 
+
+
+```
+
+## Filtering
+
+We can retain rows of a dataset matching a condition with `filter()`
+
+```{r}
+#  we now cars hare have 3, 4 or 5 gears
+mtcars_4gear = mtcars_data %>% filter(gear == 4) 
+
+
+mtcars_4gear 
+```
+
+
+##Re-arranging rows
+
+We can arrange rows of a data set with `arrange`, for example by car make or mpg of gears:
+
+```{r}
+# same dataset with row sorted by mpg
+dat1 = mtcars_data %>% arrange(mpg)
+```
+
+## Selecting columns
+
+We can select a subset of columns with `select` 
+
+# Final remarks
+
+## Take-home messages
+
+# In-class exercise
+
+
+# Self-study exercise
+
+# External resource
+
+[Introduction to dplyr](https://cloud.r-project.org/web/packages/dplyr/vignettes/dplyr.html)
+[dplyr overview](https://dplyr.tidyverse.org/)
+[dplyr cheat sheet](https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf)
