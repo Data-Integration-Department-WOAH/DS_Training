@@ -1,12 +1,9 @@
 ---
 title: "Training Program in Data Science - Syllabus"
-author: "Data Integration Department, WOAH"
-date: last-modified
-format:
-  html:
-    embed-resources: true
-    toc: true
-    number-sections: true
+output: 
+  html_document:
+    number_sections: true
+date: "2025-07-30"
 ---
 
 This syllabus for the training program. We will work in agile mode and adjust continuously the pace and content of the training sessions based on your feedback and needs.
@@ -20,12 +17,16 @@ The present document will be continuously updated and used as the main entry poi
     -   Find your way in the Rstudio environment
 
     -   Learn how to load an external dataset and summarize it
+    
+- Lecture [notes](./Training_Session_1/Notes_session1.html)    
 
 -   External resource: [Basic Basics lesson unit from R-Ladies Sydney](https://rladiessydney.org/courses/ryouwithme/basicbasics)
 
 ## Common data structures, basic of R and dplyr syntax
 
 -   Objective: learn principles underlying the grammar of data manipulation `dplyr`
+
+- Lecture [notes](./Training_Session_1/Notes_session2.html)    
 
 -   External resources
 
